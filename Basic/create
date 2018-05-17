@@ -1,0 +1,9 @@
+database employee;
+use employee;
+create table employee(first_name VARCHAR(15)NOT NULL,
+Last_name VARCHAR(15)NOT NULL,
+age int NOT NULL,
+SEX VARCHAR(1)NOT NULl,create
+DOD int NULL,Address VARCHAR(30)NOT NULl,
+city VARCHAR(15),state varchar(15),
+Salary int,dep varchar(15));
