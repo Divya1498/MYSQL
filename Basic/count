@@ -1,0 +1,11 @@
+create database emp;
+use emp;
+create table emp1(empno int NOT NULL,empname VARCHAR(20)NOT NULL,Address VARCHAR(20),salary int,PRIMARY KEY(empno));
+EXPLAIN emp1;
+Insert into emp1 values(1,'priya','madurai',10000);
+insert into emp1 values(2,'priya','chennai',20000);
+insert into emp1 values(3,'pooja','madurai',8000);
+insert into emp1 values(4,'pradee','trichy',900000);
+select count(*) from emp1;
+select Address from emp1;
+select Distinct(Address) from emp1;
