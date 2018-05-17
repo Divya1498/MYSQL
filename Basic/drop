@@ -1,0 +1,17 @@
+create database student;
+create database employee;
+create database production;
+use student;
+create table student(name VARCHAR(20)NOT NULL,rollno int NOT NULL);
+create table details(name VARCHAR(20)NOT NULL,Age int NOT NULL,DOB int NULL);
+SHOW tables;
+drop table details;
+show tables;
+use employee;
+create table employee(empno int,empname VARCHAR(20));
+SHOW tables;
+use production;
+Create table product(productname VARCHAR(20),price int);
+SHOW tables;
+ALTER table product ADD index(price);
+show databases;
