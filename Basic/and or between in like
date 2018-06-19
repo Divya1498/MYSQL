@@ -1,0 +1,12 @@
+create database student;
+use student;
+create table stu(ID int,name VARCHAR(20),age int);
+insert into stu values(1,'vinothini',25);
+insert into stu values(2,'banu',27);
+insert into stu values(3,'kaushik',23);
+insert into stu values(4,'praveen',25);
+insert into stu values(5,'kamal',22);
+insert into stu values(6,'malini',24);
+insert into stu values(7,'ramesh',32);
+select * from stu where age=22 or age=32;
+
